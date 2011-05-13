@@ -1,0 +1,292 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		964AA65C137D930C00B7F60B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 964AA65B137D930C00B7F60B /* UIKit.framework */; };
+		964AA65E137D930C00B7F60B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 964AA65D137D930C00B7F60B /* Foundation.framework */; };
+		964AA660137D930C00B7F60B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 964AA65F137D930C00B7F60B /* CoreGraphics.framework */; };
+		964AA666137D930C00B7F60B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 964AA664137D930C00B7F60B /* InfoPlist.strings */; };
+		964AA669137D930C00B7F60B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 964AA668137D930C00B7F60B /* main.m */; };
+		964AA66C137D930C00B7F60B /* SpinnyTestAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 964AA66B137D930C00B7F60B /* SpinnyTestAppDelegate.m */; };
+		964AA66F137D930C00B7F60B /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 964AA66D137D930C00B7F60B /* MainWindow.xib */; };
+		964AA672137D930C00B7F60B /* SpinnyTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 964AA671137D930C00B7F60B /* SpinnyTestViewController.m */; };
+		964AA675137D930C00B7F60B /* SpinnyTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 964AA673137D930C00B7F60B /* SpinnyTestViewController.xib */; };
+		964AA684137DB5F400B7F60B /* cute_kity.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 964AA683137DB5F400B7F60B /* cute_kity.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		964AA657137D930C00B7F60B /* SpinnyTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpinnyTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		964AA65B137D930C00B7F60B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		964AA65D137D930C00B7F60B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		964AA65F137D930C00B7F60B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		964AA663137D930C00B7F60B /* SpinnyTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SpinnyTest-Info.plist"; sourceTree = "<group>"; };
+		964AA665137D930C00B7F60B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		964AA667137D930C00B7F60B /* SpinnyTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SpinnyTest-Prefix.pch"; sourceTree = "<group>"; };
+		964AA668137D930C00B7F60B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		964AA66A137D930C00B7F60B /* SpinnyTestAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpinnyTestAppDelegate.h; sourceTree = "<group>"; };
+		964AA66B137D930C00B7F60B /* SpinnyTestAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpinnyTestAppDelegate.m; sourceTree = "<group>"; };
+		964AA66E137D930C00B7F60B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		964AA670137D930C00B7F60B /* SpinnyTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpinnyTestViewController.h; sourceTree = "<group>"; };
+		964AA671137D930C00B7F60B /* SpinnyTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpinnyTestViewController.m; sourceTree = "<group>"; };
+		964AA674137D930C00B7F60B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SpinnyTestViewController.xib; sourceTree = "<group>"; };
+		964AA683137DB5F400B7F60B /* cute_kity.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cute_kity.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		964AA654137D930C00B7F60B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				964AA65C137D930C00B7F60B /* UIKit.framework in Frameworks */,
+				964AA65E137D930C00B7F60B /* Foundation.framework in Frameworks */,
+				964AA660137D930C00B7F60B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		964AA64C137D930C00B7F60B = {
+			isa = PBXGroup;
+			children = (
+				964AA683137DB5F400B7F60B /* cute_kity.jpg */,
+				964AA661137D930C00B7F60B /* SpinnyTest */,
+				964AA65A137D930C00B7F60B /* Frameworks */,
+				964AA658137D930C00B7F60B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		964AA658137D930C00B7F60B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				964AA657137D930C00B7F60B /* SpinnyTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		964AA65A137D930C00B7F60B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				964AA65B137D930C00B7F60B /* UIKit.framework */,
+				964AA65D137D930C00B7F60B /* Foundation.framework */,
+				964AA65F137D930C00B7F60B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		964AA661137D930C00B7F60B /* SpinnyTest */ = {
+			isa = PBXGroup;
+			children = (
+				964AA66A137D930C00B7F60B /* SpinnyTestAppDelegate.h */,
+				964AA66B137D930C00B7F60B /* SpinnyTestAppDelegate.m */,
+				964AA66D137D930C00B7F60B /* MainWindow.xib */,
+				964AA670137D930C00B7F60B /* SpinnyTestViewController.h */,
+				964AA671137D930C00B7F60B /* SpinnyTestViewController.m */,
+				964AA673137D930C00B7F60B /* SpinnyTestViewController.xib */,
+				964AA662137D930C00B7F60B /* Supporting Files */,
+			);
+			path = SpinnyTest;
+			sourceTree = "<group>";
+		};
+		964AA662137D930C00B7F60B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				964AA663137D930C00B7F60B /* SpinnyTest-Info.plist */,
+				964AA664137D930C00B7F60B /* InfoPlist.strings */,
+				964AA667137D930C00B7F60B /* SpinnyTest-Prefix.pch */,
+				964AA668137D930C00B7F60B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		964AA656137D930C00B7F60B /* SpinnyTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 964AA678137D930C00B7F60B /* Build configuration list for PBXNativeTarget "SpinnyTest" */;
+			buildPhases = (
+				964AA653137D930C00B7F60B /* Sources */,
+				964AA654137D930C00B7F60B /* Frameworks */,
+				964AA655137D930C00B7F60B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpinnyTest;
+			productName = SpinnyTest;
+			productReference = 964AA657137D930C00B7F60B /* SpinnyTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		964AA64E137D930C00B7F60B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Auburn & Ivory";
+			};
+			buildConfigurationList = 964AA651137D930C00B7F60B /* Build configuration list for PBXProject "SpinnyTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 964AA64C137D930C00B7F60B;
+			productRefGroup = 964AA658137D930C00B7F60B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				964AA656137D930C00B7F60B /* SpinnyTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		964AA655137D930C00B7F60B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				964AA666137D930C00B7F60B /* InfoPlist.strings in Resources */,
+				964AA66F137D930C00B7F60B /* MainWindow.xib in Resources */,
+				964AA675137D930C00B7F60B /* SpinnyTestViewController.xib in Resources */,
+				964AA684137DB5F400B7F60B /* cute_kity.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		964AA653137D930C00B7F60B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				964AA669137D930C00B7F60B /* main.m in Sources */,
+				964AA66C137D930C00B7F60B /* SpinnyTestAppDelegate.m in Sources */,
+				964AA672137D930C00B7F60B /* SpinnyTestViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		964AA664137D930C00B7F60B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				964AA665137D930C00B7F60B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		964AA66D137D930C00B7F60B /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				964AA66E137D930C00B7F60B /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		964AA673137D930C00B7F60B /* SpinnyTestViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				964AA674137D930C00B7F60B /* en */,
+			);
+			name = SpinnyTestViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		964AA676137D930C00B7F60B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		964AA677137D930C00B7F60B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		964AA679137D930C00B7F60B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SpinnyTest/SpinnyTest-Prefix.pch";
+				INFOPLIST_FILE = "SpinnyTest/SpinnyTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		964AA67A137D930C00B7F60B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SpinnyTest/SpinnyTest-Prefix.pch";
+				INFOPLIST_FILE = "SpinnyTest/SpinnyTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		964AA651137D930C00B7F60B /* Build configuration list for PBXProject "SpinnyTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				964AA676137D930C00B7F60B /* Debug */,
+				964AA677137D930C00B7F60B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		964AA678137D930C00B7F60B /* Build configuration list for PBXNativeTarget "SpinnyTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				964AA679137D930C00B7F60B /* Debug */,
+				964AA67A137D930C00B7F60B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 964AA64E137D930C00B7F60B /* Project object */;
+}
